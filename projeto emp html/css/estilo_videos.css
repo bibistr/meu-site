@@ -1,0 +1,97 @@
+#container {
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 900px;
+    height: 650px;
+}
+
+#topo {
+    width: 900px;
+    height: 200px;
+    background-image: url(../html/banner_loja.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu {
+    width: 600px;
+    height: 40px;
+    background-color: #A0522D;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#menu div {
+    text-align: center;
+}
+
+#menu a {
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#menu a:hover {
+    color: #000000;
+}
+
+#conteudo {
+    width: 898px;
+    min-height: 300px;
+    border: 1px solid #000;
+    background-color: #fff9ec;
+    overflow: hidden;
+}
+
+.caixa {
+    width: 895px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.videos {
+    width: 245px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    float: left;
+}
+
+#rodape {
+    width: 880px;
+    height: 45px;
+    background-color: #A0522D;
+    padding: 10px 10px 10px 10px;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-family: "Georgia";
+    font-size: 20px;
+    color: #800000;
+    margin-top: 20;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 13px;
+    text-align: center;
+    color: #000;
+    font-style: italic;
+}
