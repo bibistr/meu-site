@@ -1,0 +1,162 @@
+#container {
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 900px;
+    height: 650px;
+}
+
+#topo {
+    width: 900px;
+    height: 200px;
+    background-image: url(../html/banner_loja.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu {
+    width: 600px;
+    height: 40px;
+    background-color: #A0522D;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#menu div {
+    text-align: center;
+}
+
+#menu a {
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#menu a:hover {
+    color: #000000;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff9ec;
+    min-height: 400px; /* menor altura */
+    flex-wrap: wrap;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 360px; /* menos largura */
+    margin: 0 20 auto 40;
+    padding: 10px; /* menos padding */
+    background-color: #f5e5c8;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    display: flex; /* agora em linha */
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.formulario span {
+    width: 80px; /* define a largura da "etiqueta" */
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.formulario input[type="text"],
+.formulario select,
+.formulario textarea {
+    flex: 1; /* ocupa o restante do espaço */
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+.formulario textarea {
+    height: 60px; /* reduz altura do textarea */
+    resize: none;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 6px;
+    background-color: #A0522D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #8B4513;
+}
+
+.mapa {
+    width: 100%;
+    max-width: 320px; /* menos largura */
+    margin: 0 auto 0 45;
+    padding: 10px; /* menos padding */
+    background-color: #f5e5c8;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.redes {
+    text-align: center;
+    margin-left: 25;
+    margin-top: 10px;
+}
+
+.redes a {
+    margin: 0 auto 0 13px;
+    text-decoration: none;
+}
+
+#rodape {
+    width: 880px;
+    height: 45px;
+    background-color: #A0522D;
+    padding: 10px 10px 10px 10px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h2 {
+    font-family: "Garamond";
+    font-size: 18px;
+    color: #800000;
+    font-stretch: semi-expanded;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 13px;
+    text-align: center;
+    color: #000;
+    font-style: italic;
+}
